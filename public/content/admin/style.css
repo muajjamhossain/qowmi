@@ -1,0 +1,16 @@
+.breadcrumbs__custom {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+html .content .content-wrapper .content-header-title {
+	border-right: 0;
+}
+
+.brand-text{
+		margin-top: 10px;
+}
+
+.custom__brand_logo img{
+		width: 50px;
+}

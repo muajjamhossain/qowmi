@@ -1,0 +1,85 @@
+.main__menu{
+    background: #3856A6;
+}
+
+.header-topbar {
+	background: #385659;
+}
+
+.brand_logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.brand_logo img {
+	width: 100px;
+	border-radius: 50%;
+}
+
+.brand_logo .brand_logo_text {
+	margin-left: 10px;
+}
+
+.brand_logo .brand_logo_text span {
+	display: block;
+	color: #fff;
+	line-height: 25px;
+}
+
+.navbar2 {
+	background: transparent;
+	display: flex;
+	justify-content: center;
+}
+
+.navbar-toggleable-md .navbar-nav .nav-link {
+	color: #fff;
+	font-weight: 700;
+}
+
+.header-top_login a, .header-top_login2 a {
+	color: #fff;
+	font-weight: 700;
+}
+
+.nav-link.active {
+	border-bottom: 1px solid #fff;
+}
+
+/* responsive */
+/* Extra large devices 1200px */
+/* Large devices 992px */
+/* Medium devices tablets, 768px and up */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+/* Small devices landscape phones, 576px and up */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+/* Extra small devices portrait phones, less than 576px */
+@media (min-width: 320px) and (max-width: 575px) {
+  .brand_logo {
+    justify-content: flex-start;
+  }
+
+  .brand_logo img {
+  	width: 50px;
+  }
+
+  .brand_logo .brand_logo_text {
+  	margin-left: 5px;
+  }
+
+  .brand_logo .brand_logo_text span {
+    	line-height: 14px;
+    	font-size: 14px;
+  }
+
+  .header-topbar {
+  	display: none;
+  }
+
+  /* (((((((((((((((( end )))))))))))))))) */
+}
